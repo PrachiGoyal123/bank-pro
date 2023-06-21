@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheet/global.css" />
+
+    <!-- external css start-->
+    <link rel="stylesheet" href="/stylesheet/Register.css" />
+    <!-- external css end-->
+    
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="parItem">
+        <div class="childItem">
+          <form action="/register" method="POST">
+            <div class="head">
+              <h1>Register</h1>
+            </div>
+            <div class="email">
+              <input type="email" name="email" placeholder="Email Address" />
+            </div>
+            <div class="pass">
+              <input type="password" name="password" placeholder="Password" />
+            </div>
+            <div class="submit">
+              <button type="submit">Register</button>
+            </div>
+            <div class="link">
+              <a href="/login">Already have an account?</a>
+            </div>
+          </form>
+<% 
+            if(typeof message != 'undefined'){ 
+              %>
+              <div class="message">
+                <p><%= message %></p>
+              </div>
+            <% } 
+%>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Great+Vibes&family=Lato&family=Playfair&family=Poppins&family=Saira+Stencil+One&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Dancing+Script:wght@700&family=Great+Vibes&family=Lato&family=Playfair&family=Poppins&family=Saira+Stencil+One&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Dancing+Script:wght@700&family=Great+Vibes&family=Lato&family=Playfair&family=Poppins&family=Saira+Stencil+One&family=Varela+Round&family=Zilla+Slab&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Zilla Slab', serif;
+  font-size: 1.02em;
+}
+
+.navbar-brand {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#user-icon{
+    width: 3rem;
+    height: 3rem;
+}
+#logo{
+    width: 6rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
